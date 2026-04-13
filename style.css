@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e6e8e6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #553a41;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bb7e8c;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("https://www.skiamade.com/media-import-nw/website-relaunch-fotos/winter/cd-bilder/image-thumb__6544691__hero-full-height/2025-skiamade-sujet-skifahren-1.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #3a6ea5;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #191919;
+}
+
+.section-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+
+.new {
+    color: #3a6ea5;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #553a41;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
